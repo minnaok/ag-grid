@@ -48,7 +48,7 @@ function App()  {
         <button onClick={deleteTodo}>Delete</button>
         
         <div className="ag-theme-material" 
-        style={ { height: '700px', width: '80%', margin: 'auto'} }>
+        style={ { height: '700px', width: '50%', margin: 'auto', color: 'blue'} }>
         <AgGridReact
           ref={gridRef}
           onGridReady={ params => gridRef.current = params.api}
